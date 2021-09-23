@@ -1,0 +1,116 @@
+nav ul
+{
+    font-size: large;
+    font-weight:500;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    z-index: 1;
+    background-color: rgb(63, 63, 63);
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+li
+{
+    color: rgb(160, 160, 160);
+    padding: 15px 50px;
+    display: inline;
+}
+
+#content
+{
+    width: 990px;
+    margin: auto;
+}
+
+* 
+{
+    font-size: 0px;
+}
+
+.section_1 img
+{
+    width: 960px;
+    height: 450px;
+    margin: 15px;
+    display: inline-block;  
+}
+
+.section_2 img
+{
+    width: 300px;
+    height: 375px;
+    margin: 15px;
+    display: inline-block;
+}
+
+.section_3
+{
+    display: flex;
+}
+
+.section_3 img
+{
+    width: 480px;
+    height: 400px;
+    margin: 15px;
+    font-size: 0px;
+}
+
+.section_3 article
+{
+    width: 465px;
+    height: 400px;
+    margin: 15px;
+}
+
+article 
+{
+    font-size: 16pt;
+}
+
+article * 
+{
+    font-family: Poppins;
+    margin: 5px;
+}
+
+article h3 
+{
+    font-size: 18pt;
+    padding-bottom: 3px;
+}
+
+article p 
+{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 308px;
+    font-style: italic;
+}
+
+article a 
+{
+    margin-top: 5px;
+    padding: 10px 25px;
+    color: rgb(172, 172, 172);
+    background-color: black;
+    display: inline-block;
+}
+
+#footer
+{
+    display: block;
+    margin: 0;
+    padding: 0;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    bottom: 0;
+    background-color: rgb(63, 63, 63);
+}
